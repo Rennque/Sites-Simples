@@ -1,0 +1,119 @@
+/* .body{
+    background-color: rgb(32, 117, 89);
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 530px;
+  border-radius: 15px;
+  margin-top: 45px;
+  background-color: #202020;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+}
+
+.poro {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.icones{
+  display: flex;
+justify-content: center;
+color:#5bacdb;
+transition: 0s;
+} 
+
+.text-main {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.desc {
+  font-family: "Poppins", sans-serif;
+  color: rgb(216, 216, 216);
+  font-weight: 300;
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  transition: 1s;
+  background-color: #45e0fcbe;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  transition: 1s;
+  background-color: #36daf0be;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.fa-facebook{
+  color: #5bacdb;
+  cursor: pointer;
+  transition: 5s;
+  margin-top: 15px;
+}
+
+.fa-instagram{
+  color: #5bacdb;
+  cursor: pointer;
+  transition: 5s;
+  margin-top: 15px;
+}
+
+.fa-github{
+  color: #5bacdb;
+  cursor: pointer;
+  transition: 5s;
+  margin-top: 15px;
+}
+
+.fa-trello{
+  color: #5bacdb;
+  cursor: pointer;
+  transition: 5s;
+  margin-top: 15px;
+}
+
+.fa-discord{
+  color: #5bacdb;
+  cursor: pointer;
+  transition: 5s;
+  margin-top: 15px;
+}
+
+.fa-linkedin{
+  color: #5bacdb;
+  cursor: pointer;
+  transition: 5s;
+  margin-top: 15px;
+}
